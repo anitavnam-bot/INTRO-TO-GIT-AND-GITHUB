@@ -212,15 +212,10 @@ Perfect. We have created a new commit, and we're **ahead of the online copy** no
 # pushing local changes to the internet
 
 To get your local changes backed up online you need one simple command: `git push`
-Now you will be asked to put your username and password. But probably this won't work for you and you see this:
-
-![](attachments/pushreject.png)
-
-This is because you have to put your **token** there, not your password. I know, this is all super confusing, But once it's set up, it works (see prerequisite steps above)!
+Now you will be asked to put your username and password. But probably this won't work for you BECAUSE
+you have to put your **token** there, not your password. 
 
 Trying again `git push` with username and token:
-
-![](attachments/push.png)
 
 If you go to your repository on Github, you will also see your changes there! So your code is backed up =)
 
