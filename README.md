@@ -35,18 +35,6 @@ git config --global user.email "your@gmail.com"
 		- run pipelines on the code (testing, formatting, ...)
 
 ---
-# a visualization of a local git workflow
-
-
-![](attachments/commits.png)
-
-- dots: **commits**
-- series of commits: **branches**
-- dashed dot: **merge commit**
-
->After three **commits** on the **branch** "main" a **new branch** (called "feature") is created. Three **commits** are done on the **new branch**. In the meantime, two commits are done on the lower branch. Then, the top branch is **merged** into the lower branch, creating a **merge commit** (dashed dot). The lower branch now contains the merged code from both branches (blue + yellow = green). Finally, another commit is done on the lower branch. The upper branch does not exist anymore.
-
----
 # why is this useful?
 
 1. backup of your code online (with version history!)
@@ -59,13 +47,7 @@ git config --global user.email "your@gmail.com"
 # Preparation step: forking a repository
 
 This step creates your own copy of the repository on Github. You can then mess with it as much as you want, and push it back to the web without messing with anyone else's stuff.
-So as a first step, create your own `fork` of this repository: In your browser, click the Fork button:
-
-![](attachments/fork.png)
-
-You can keep all the settings:
-
-![](attachments/fork2.png)
+So as a first step, create your own `fork` of this repository: In your browser, click the Fork button and you can keep all the settings.
 
 Now, there's your unique copy of our workshop in your github account, residing at `https://github.com/<YOUR_GITHUB_USERNAME>/git-workshop`
 
