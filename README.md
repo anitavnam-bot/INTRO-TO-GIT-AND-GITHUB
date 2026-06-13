@@ -2,7 +2,7 @@
 
 # Prerequisites
 
-To prepare, please do the following. It's a bit annoying, but you only have to do it once.
+To prepare, please do the following.
 
 1. install `git` on your machine
 	1. For Windows users: Install git bash (https://gitforwindows.org)
@@ -19,7 +19,7 @@ git config --global user.email "your@gmail.com"
 # what are we gonna do today?
 
 1. explain git and github
-2. a little hands-on workshop for the most important aspects: committing, branching, merging, pushing
+2. hands-on workshop for the most important aspects: committing, branching, merging, pushing
 3. set up a git repository in your own code
 ---
 # git vs github
